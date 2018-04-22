@@ -3,6 +3,10 @@ function distanceFromHqInBlocks() {
   
 }
 
+function distanceFromHqInFeet() {
+  
+}
+
 function distanceTravelledinFeet(origin, destination) {
   
 }
