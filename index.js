@@ -8,7 +8,7 @@ function distanceFromHqInFeet(destination) {
 }
 
 function distanceTravelledinFeet(origin, destination) {
-  const distance = Math.abs(destination-origin)
+  const distance = Math.abs(destination-origin);
   return (distance *264);
 }
 
