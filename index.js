@@ -4,11 +4,12 @@ function distanceFromHqInBlocks(destination) {
 }
 
 function distanceFromHqInFeet(destination) {
-  return (distanceFromHqInBlocks(destination) * 264)
+  return (distanceFromHqInBlocks(destination) * 264);
 }
 
 function distanceTravelledinFeet(origin, destination) {
-  return (Math.abs(origin - destination) *264);
+  const distance = Math.abs(destination-origin)
+  return (distance *264);
 }
 
 function calculatesFarePrice(start, destination) {
